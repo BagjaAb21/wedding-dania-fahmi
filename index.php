@@ -172,7 +172,7 @@ if(isset($_POST["saveComment"])){
                     <p  class="text-center font-bold text-lg text-stone-800">Dania Restiana Putri</p>
                     <p class="text-center text-sm text-gray-800">Putri Sulung Dari Pasangan
                         <br>
-                        <b>Ibu Nurmaningsih & Bapak Yayat Suryana</b>
+                        <b>Ibu Nurnaningsih & Bapak Yayat Suryana</b>
                     </p>
                 </div>
                 <div class="profile2 m-auto hidden sm:block">
@@ -196,7 +196,7 @@ if(isset($_POST["saveComment"])){
                     <!-- <p  class="text-center font-bold text-lg text-stone-800">Dania Restiana Putri</p> -->
                     <p class="text-center text-sm text-gray-800">Putri Sulung Dari Pasangan
                         <br>
-                        <b>Ibu Nurmaningsih & Bapak Yayat Suryana</b>
+                        <b>Ibu Nurnaningsih & Bapak Yayat Suryana</b>
                     </p>
                 </div>
 
@@ -274,13 +274,17 @@ if(isset($_POST["saveComment"])){
                 <span class="absolute top-[25%] ml-[85%] text-[30px] cursor-pointer" onclick="closeFullImg()">X</span>
             </div>
 
-            <div class="gallery w-[80%] mt-[100px] m-auto mb-[50px] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-[13px]">
+            <div class="gallery w-[80%] mt-[100px] m-auto mb-[50px] mt-5 grid md:grid-cols-2 lg:grid-cols-3 gap-[13px] bnw">
                 <img src="img/gallery/img1.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer  block" onclick="openFullImg(this.src)" id="img1">
                 <img src="img/gallery/img4.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer  block" onclick="openFullImg(this.src)" id="img4">
-                <img src="img/gallery/img2.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[300px] block" onclick="openFullImg(this.src)" id="img2">
+                <img src="img/gallery/img12.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[300px] block" onclick="openFullImg(this.src)" id="img2">
                 <img src="img/gallery/img3.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer  block" onclick="openFullImg(this.src)" id="img3">
-                <img src="img/gallery/img6.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[300px] block" onclick="openFullImg(this.src)" id="img6">
+                <img src="img/gallery/img11.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[300px] block" onclick="openFullImg(this.src)" id="img6">
                 <img src="img/gallery/img5.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer block" onclick="openFullImg(this.src)" id="img5">
+                <img src="img/gallery/img6.JPG" alt="" class="w-[100%] rounded-[5px] cursor-pointer  block" onclick="openFullImg(this.src)" id="img7">
+                <img src="img/gallery/img10.JPG" alt="" class="w-[100%] rounded-[5px] cursor-pointer  block" onclick="openFullImg(this.src)" id="img8">
+                <img src="img/gallery/img3-1.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer h-[300px] block" onclick="openFullImg(this.src)" id="img9">
+                <img src="img/gallery/img9.jpg" alt="" class="w-[100%] rounded-[5px] cursor-pointer  block" onclick="openFullImg(this.src)" id="img10">
             </div>
         </div>
         
@@ -384,7 +388,7 @@ if(isset($_POST["saveComment"])){
     </footer>
 
     <div class="audio-player fixed bottom-[70px] sm:bottom-[90px] right-[-160px] sm:right-[-150px] z-20">
-        <audio autoplay loop src="mp3/Ed-Sheeran-Perfect.mp3"></audio>
+        <audio autoplay loop src="mp3/Ari Lasso - Cinta Terakhir (Saxophone Cover by Dani Pandu).mp3"></audio>
         <div class="controls m-auto">
         <button class="player-button">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="#3D3132">
